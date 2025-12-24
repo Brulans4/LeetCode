@@ -1,7 +1,5 @@
 package _19_RemoveNthNodeFromEndofList;
 
-import _141_LinkedListCycle.Solution.ListNode;
-
 /**
  * Definition for singly-linked list. public class ListNode { int val; ListNode next; ListNode() {}
  * ListNode(int val) { this.val = val; } ListNode(int val, ListNode next) { this.val = val;

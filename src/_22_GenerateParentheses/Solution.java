@@ -1,8 +1,6 @@
 package _22_GenerateParentheses;
 
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Solution {
@@ -13,7 +11,7 @@ public class Solution {
 	}
 
 	public static List<String> generateParenthesis(int n) {
-		List<String> res = new ArrayList<String>();
+		List<String> res = new ArrayList<>();
 		recurse(res, 0, 0, "", n);
 		return res;
 	}

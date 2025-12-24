@@ -10,7 +10,7 @@ public class Solution {
 	}
 
 	public static int partitionString(String s) {
-		Set<Character> set = new HashSet<Character>();
+		Set<Character> set = new HashSet<>();
 		int ans = 1;
 
 		for (char c : s.toCharArray()) {

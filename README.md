@@ -19,9 +19,9 @@ Each problem is organized in its own dedicated directory following the naming co
 
 ### Example Directories
 
-_0001_TwoSum
+_1_TwoSum
 
-_0206_ReverseLinkedList
+_206_ReverseLinkedList
 
 
 ## Directory Contents

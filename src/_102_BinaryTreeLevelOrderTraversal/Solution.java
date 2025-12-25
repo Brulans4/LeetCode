@@ -6,9 +6,6 @@ import java.util.List;
 public class Solution {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null) {
-            return new ArrayList<>();
-        }
         List<List<Integer>> list = new ArrayList<>();
         levelOrder(root, list, 1);
         return list;
